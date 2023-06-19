@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+article{
+    width: 90%;
+    margin: auto;
+    margin-top: 4%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    line-height: 2;
+    /* background:linear-gradient(rgba(0.8,0,0.9,0.90),rgba(0,0,0,0.6)),url("https://cdn4.vectorstock.com/i/1000x1000/23/93/cart-a-background-vector-1822393.jpg") no-repeat;
+    background:url("https://cdn4.vectorstock.com/i/1000x1000/23/93/cart-a-background-vector-1822393.jpg")no-repeat;
+    background-size: cover; */
+    text-align: center;
+
+}
+.empty
+{
+   align-self: center;
+   justify-self: center;
+   justify-content: center;
+   justify-items: center;
+   align-items: center;
+   align-self: start;
+    font-size: larger;
+   
+    grid-column: span 3;
+
+}
+.cart_box{
+    width: 200px;
+    /* border: 2px solid black; */
+    padding: 20px;
+    color: white;
+}
+.cart_box:hover{
+    box-shadow: 0 10px 10px 10px rgba(0,0,0,0.1);
+    
+}
+
+.cart_img
+{
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 20%; */
+    padding: 5px;
+    display: flex;
+
+}
+.cart_img img{
+
+    width: 150px;
+    height: 200px;
+}
+.inc-button
+{
+    /* margin-left: 80px; */
+    display: flex;
+    justify-content: center;
+    
+}
+.inc-button button{
+    padding: 5px;
+    margin-left: 5px;
+    gap: 10px;
+    cursor: pointer;
+    
+}
+.remove-button{
+    text-align: center;
+    color: black;
+}
+.remove-button button
+{
+    cursor: pointer;
+    text-align: center;
+}
+.buy-now
+{
+    background-color:  skyblue;
+    grid-column: span 3 ;
+    padding: 10px 50px;
+    font-weight: bold;
+    margin-top: 20px;
+    outline: 0px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

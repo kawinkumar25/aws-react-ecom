@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav>
         <div className="nav_box">
             <span className="my_shop" >
-                BOOKssss SHOPPING
+                BOOKs SHOPPING
             </span>
             <div className="cart" >
                 <span>

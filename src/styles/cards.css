@@ -1,0 +1,74 @@
+
+section{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    place-items: center;
+    margin-bottom: 3%;
+    
+}
+.btColor
+{
+    background-color: red;
+    color: whitesmoke;
+}
+.btColorDefault
+{
+    background-color: skyblue;
+}
+.cards{
+    
+    width: 60%;
+    height: 90%;
+    padding: 15px;
+}
+.cards:hover{
+    box-shadow: 0 10px 10px 10px rgba(0,0,0,0.1);
+    
+}
+
+.image_box
+{
+    justify-content: center;
+    display: flex;
+}
+.image_box img{
+    width: 150px;
+    height: 200px;
+}
+.details{
+    text-align: center;
+    padding: 10px;
+    
+}
+.details p:nth-child(1){
+    font-weight: bold;
+
+}
+.details p:nth-child(2){
+    color: grey;
+    font-size: 12px;
+    padding-top: 10px;
+    font-weight: bold;
+
+}
+.details p:nth-child(3){
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    line-height: 20px;
+}
+
+.details button{
+    padding: 5px 10px;
+    border: none;
+    font-weight: bold;
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+    
+    
+}

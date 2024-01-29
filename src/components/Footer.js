@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/footer.css';
 // kawin and kumar
+// kumar and kawin
+// kawin kk
 const Footer = () => {
   return (
     <div className='footer'>

@@ -3,6 +3,7 @@ import "../styles/cart.css";
 
 
 
+
 import { UseMyContext } from '../App';
 const Cart = () => {
     const {cart,handleChange,handleRemove}=UseMyContext();

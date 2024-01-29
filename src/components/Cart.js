@@ -1,9 +1,7 @@
 import React from 'react';
 import "../styles/cart.css";
 
-
-
-
+// kkk
 import { UseMyContext } from '../App';
 const Cart = () => {
     const {cart,handleChange,handleRemove}=UseMyContext();
